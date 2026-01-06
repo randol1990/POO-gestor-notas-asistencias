@@ -24,42 +24,74 @@ class estudiante:
         self.__id = valor
     
     @property
-    def id(self):
-        return self.__id
+    def nombre(self):
+        return self.__nombre
+    
+    @nombre.setter
+    def nombre(self, valor):
+        self.__nombre = valor
     
     @property
-    def id(self):
-        return self.__id
+    def a_paterno(self):
+        return self.__a_paterno
+    
+    @a_paterno.setter
+    def a_paterno(self, valor):
+        self.__a_paterno = valor
+
+    @property
+    def a_materno(self):
+        return self.__a_materno
+    
+    @a_materno.setter
+    def a_materno(self, valor):
+        self.__a_materno = valor
+
+    @property
+    def dni(self):
+        return self.__dni
+
+    @dni.setter
+    def dni(self, valor):
+        self.__dni = valor
+
+    @property
+    def fecha_nacimiento(self):
+        return self.__fecha_nacimiento
+    
+    @fecha_nacimiento.setter
+    def fecha_nacimiento(self, valor):
+        self.__fecha_nacimiento = valor
     
     @property
-    def id(self):
-        return self.__id
+    def sexo(self):
+        return self.__sexo
+    
+    @sexo.setter
+    def sexo(self, valor):
+        self.__sexo = valor
+
+    @property
+    def email(self):
+        return self.__email
+    
+    @email.setter
+    def email(self, valor):
+        self.__email = valor
+
+    @property
+    def celular(self):
+        return self.__celular
+    
+    @celular.setter
+    def celular(self, valor):
+        self.__celular = valor
     
     @property
-    def id(self):
-        return self.__id
+    def cursos(self):
+        return self.__cursos
     
     @property
-    def id(self):
-        return self.__id
-    
-    @property
-    def id(self):
-        return self.__id
-    
-    @property
-    def id(self):
-        return self.__id
-    
-    @property
-    def id(self):
-        return self.__id
-    
-    @property
-    def id(self):
-        return self.__id
-    
-    @property
-    def id(self):
-        return self.__id
+    def asistencias(self):
+        return self.__asistencias
     
