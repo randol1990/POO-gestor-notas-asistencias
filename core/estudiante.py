@@ -95,3 +95,4 @@ class estudiante:
     def asistencias(self):
         return self.__asistencias
     
+#hola
